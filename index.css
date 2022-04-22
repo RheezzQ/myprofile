@@ -66,6 +66,10 @@ html {
     }
 }
 
+.countdown {
+    display: flex;
+    justify-content: center;
+}
 body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
@@ -429,6 +433,10 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 500px) {
     .header {
         text-align: center;
+    }
+
+    .countdown{
+        margin: 10px 0 20px;
     }
 
     .header__text p {
