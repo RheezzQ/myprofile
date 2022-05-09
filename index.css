@@ -434,11 +434,6 @@ body:not(.user-is-tabbing) a:focus {
     .header {
         text-align: center;
     }
-
-    .countdown{
-        margin: 10px 0 20px;
-    }
-
     .header__text p {
         transform: scale(.8);
     }
